@@ -1,20 +1,53 @@
-h1{
-  color: red;
+* {
+  color:#000;
 }
-.twinslogo{
-  max-height:40px;
-  max-width: 40px;
+body {
+  margin:0;
+  display: flex;
+  flex-direction: column;
 }
-.creek{
-  max-width: 80%;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+a {
+  color:#222222;
+  text-decoration: none;
 }
-.button{
-  color:red;
-  height: 100px;
-  wight: 100px;
-  background-color: red;
-  
+a:hover {
+  text-decoration: underline;
+  color:#73716d;
+}
+.top-nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+.fa {
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.fa:hover{
+  opacity: 1.0;
+}
+.top-nav li{
+  display: inline-block;
+  padding: 5px 10px 0px 0px;
+  vertical-align: bottom;
+  margin: 5px 5px 0px 0px;
+  font-size: 13px;
+}
+.share-button {
+  background-color: #f2f2f2;
+  padding: 7px 15px;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+}
+.profile-image{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 9px;
+}
+.share-button:hover{
+  background-color: #73716d;
 }
